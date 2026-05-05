@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AIで作る小さな事業</title>
+    <meta
+      name="description"
+      content="AIを使ってホームページ、掲示板、自動化ツール、小さなWebサービスを作り、収益化を試していく個人プロジェクトです。"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="トップへ">
+        <span class="brand-mark">AI</span>
+        <span>Small Works</span>
+      </a>
+      <nav class="nav" aria-label="メインメニュー">
+        <a href="#works">作るもの</a>
+        <a href="#plan">進め方</a>
+        <a href="#contact">相談</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <div class="screen">
+            <div class="screen-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="screen-grid">
+              <div class="panel panel-large"></div>
+              <div class="panel"></div>
+              <div class="panel"></div>
+              <div class="panel panel-wide"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">AIで作って、試して、収益化する</p>
+          <h1 id="hero-title">小さなWeb事業を、どんどん形にする。</h1>
+          <p class="lead">
+            ホームページ、掲示板、自動投稿、便利ツール。思いついたアイデアを小さく作り、
+            公開して、反応を見ながら育てていくための拠点です。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#works">作るものを見る</a>
+            <a class="button secondary" href="#contact">相談する</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="works" aria-labelledby="works-title">
+        <div class="section-heading">
+          <p class="eyebrow">Works</p>
+          <h2 id="works-title">まず作るもの</h2>
+        </div>
+        <div class="work-grid">
+          <article class="work-card">
+            <span class="work-number">01</span>
+            <h3>ホームページ</h3>
+            <p>活動内容、実績、問い合わせ先をまとめる最初の拠点。</p>
+          </article>
+          <article class="work-card">
+            <span class="work-number">02</span>
+            <h3>掲示板サイト</h3>
+            <p>人が投稿できる小さなコミュニティサービス。</p>
+          </article>
+          <article class="work-card">
+            <span class="work-number">03</span>
+            <h3>投稿管理ツール</h3>
+            <p>XやSNSの投稿ネタをためて、予定を整理する仕組み。</p>
+          </article>
+          <article class="work-card">
+            <span class="work-number">04</span>
+            <h3>自動化ツール</h3>
+            <p>毎回やる作業を減らして、制作と改善に時間を回す。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="process" id="plan" aria-labelledby="plan-title">
+        <div class="section-heading">
+          <p class="eyebrow">Plan</p>
+          <h2 id="plan-title">進め方</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <strong>小さく作る</strong>
+            <span>まず完成するサイズまで削って、動くものを作ります。</span>
+          </li>
+          <li>
+            <strong>公開する</strong>
+            <span>GitHubとVercelなどを使って、見られるURLにします。</span>
+          </li>
+          <li>
+            <strong>反応を見る</strong>
+            <span>アクセス、問い合わせ、SNSの反応を見ます。</span>
+          </li>
+          <li>
+            <strong>収益化を試す</strong>
+            <span>広告、アフィリエイト、制作代行、有料素材などを試します。</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">一緒に作りたい人へ</h2>
+          <p>
+            AIを使ったWeb制作、自動化、収益化の実験を進めています。
+            相談や依頼はSNSまたはメールからお願いします。
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:hello@example.com">メールする</a>
+          <a class="button secondary" href="https://x.com/" rel="noreferrer">Xを見る</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> AI Small Works</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
