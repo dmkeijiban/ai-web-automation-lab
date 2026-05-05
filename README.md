@@ -1,26 +1,29 @@
-# AI Web Automation Lab
+# AI自動化ラボ
 
-A small homepage for AI-powered websites, automation tools, bulletin boards, and online growth experiments.
+AIを使ってホームページ、掲示板サイト、SNS投稿管理、Web自動化ツールを作っていくためのホームページです。
 
-## Files
+## ファイル
 
-- `index.html`: Page content
-- `styles.css`: Visual design
-- `script.js`: Small browser behavior
+- `index.html`: ページ本体
+- `styles.css`: 見た目
+- `script.js`: 年号などの小さな動き
 
-## Open locally
+## ローカルで見る
 
-Open `index.html` in a browser.
+`index.html` をブラウザで開けば見られます。
 
-## Publish
+## 公開
 
-1. Create a new GitHub repository named `ai-web-automation-lab`
-2. Push this project to GitHub
-3. Connect the repository to Vercel
-4. Publish the site and share the generated URL
+このサイトはGitHubにアップロードして、Vercelで公開します。
 
-## Replace later
+公開URL:
 
-- Email: `hello@example.com`
-- X link: `https://x.com/`
-- Brand wording and service text
+```text
+https://ai-web-automation-lab.vercel.app
+```
+
+## あとで差し替えるところ
+
+- メール: `hello@example.com`
+- Xリンク: `https://x.com/`
+- 文章や実績
