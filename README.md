@@ -1,27 +1,26 @@
-# Personal Homepage
+# AI Web Automation Lab
 
-AIを使って小さなWeb事業を作っていくための個人ホームページです。
+A small homepage for AI-powered websites, automation tools, bulletin boards, and online growth experiments.
 
-## 中身
+## Files
 
-- `index.html`: ページ本体
-- `styles.css`: 見た目
-- `script.js`: 年号などの小さな動き
+- `index.html`: Page content
+- `styles.css`: Visual design
+- `script.js`: Small browser behavior
 
-## パソコンで見る
+## Open locally
 
-`index.html` をブラウザで開けば見られます。
+Open `index.html` in a browser.
 
-## 公開する流れ
+## Publish
 
-1. GitHubで新しいリポジトリを作る
-2. このフォルダをそのリポジトリに入れる
-3. VercelでGitHubリポジトリを選んで公開する
-4. URLができたらSNSやプロフィールに貼る
+1. Create a new GitHub repository named `ai-web-automation-lab`
+2. Push this project to GitHub
+3. Connect the repository to Vercel
+4. Publish the site and share the generated URL
 
-## 差し替えるところ
+## Replace later
 
-- サイト名: `AI Small Works`
-- メール: `hello@example.com`
-- Xリンク: `https://x.com/`
-- 見出しや文章
+- Email: `hello@example.com`
+- X link: `https://x.com/`
+- Brand wording and service text
